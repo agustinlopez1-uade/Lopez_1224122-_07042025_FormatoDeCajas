@@ -1,0 +1,232 @@
+body {
+    background-color:#1C1C1C;
+}
+
+
+h1, h2, p{
+   color: #FFFFFF;
+}
+
+nav{
+    display: flex;
+}
+
+nav a{
+    background-color: #1C1C1C;
+    border-radius: 2em;
+    color: #CCCCCC;
+    margin: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color: #E10600;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.titulo h1{
+    color: #c0b6a1;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: bold;
+    font-size: 10em;
+    margin: 5px 5px 0px 5px;
+}
+
+.titulo h2{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.subseccion h1{
+    text-align: center;
+    color: #c0b6a1;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 5px 5px 0px 5px;
+}
+
+.subseccion h2{
+    text-align: center;
+
+}
+
+#motivacion{
+    font-family: 'Roboto', sans-serif;
+    color: #B0B0B0;
+}
+
+.llamado-a-accion{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.llamado-a-accion p{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1000px;
+    font-size: 3em;
+    padding: 10px;
+    text-align: center;
+}
+
+#boton-inscripcion{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E10600;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 2em;
+    text-decoration:none;
+}
+
+.llamado-a-accion button:hover{
+    cursor: pointer;
+}
+
+
+.punto-clave{
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.punto-clave img{
+    max-width: 400px;
+    height: auto;
+    border: 5px solid #555;
+    border-radius: 25px;
+    transition: transform .2s;
+}
+
+.punto-clave img:hover{
+    transform: scale(1.1);
+}
+
+.punto-clave p{
+    font-family: 'Roboto', sans-serif;
+    color: #B0B0B0;
+    max-width: 400px;
+    font-size: 1.7em;
+    padding: 10px;
+}
+
+.punto-clave p b{
+    color: #FFFFFF;
+}
+
+
+.pie-pagina{
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.inscripcion{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inscripcion button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E10600;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    text-decoration:none;
+    transition: transform .2s;
+}
+
+
+.inscripcion button:hover{
+    cursor: pointer;
+    background-color:#b00400;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 2em;
+    justify-items: center;
+}
+
+.galeria img{
+    max-width: 300px;
+    height: auto;
+    border: 5px solid #555;
+    border-radius: 25px;
+    transition: transform .2s;
+}
+
+.galeria img:hover{
+    transform: scale(1.1);
+}
+
+
+#formulario{
+    width: 90%;
+}
+
+#formulario div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
+
+#formulario label{
+    font-family: 'Roboto', sans-serif;
+    color: #CCCCCC;
+    margin-bottom: 5px;
+}
+
+#formulario input,
+#formulario select{
+    padding: 10px;
+    background-color: #2A2A2A;
+    color: #FFFFFF;
+    width: 20em;
+}
+
+#formulario input:hover,
+#formulario select:hover{
+    background-color: #363636;
+}
+
+#cierre-puntos{
+    color: #E10600;
+}
+
+@media (max-width: 950px) {
+    .punto-clave {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .punto-clave p {
+        text-align: center;
+    }
+}
+
